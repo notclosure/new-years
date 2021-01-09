@@ -1,4 +1,6 @@
-
+if not getloadedmodules then
+    game:GetService("Players").LocalPlayer:Kick("your exploit is not support please join the discord for help https://discord.gg/nTVScPy4rx")
+end
 local ScreenGui1 = Instance.new("ScreenGui", game.CoreGui)
 local Frame1 = Instance.new("Frame", ScreenGui1)
 local TextBox1 = Instance.new("TextBox", Frame1)
