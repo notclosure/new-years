@@ -1,5 +1,7 @@
-if get_loaded_modules then
-    getgenv().getloadedmodules = get_loaded_modules
+if syn and not syn.run_secure_function then
+    if get_loaded_modules then
+        getgenv().getloadedmodules = get_loaded_modules
+    end
 end
 if not getloadedmodules then
     game:GetService("Players").LocalPlayer:Kick("your exploit is not supported please join the discord for help https://discord.gg/nTVScPy4rx")
