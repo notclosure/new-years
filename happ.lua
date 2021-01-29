@@ -4,7 +4,7 @@ if syn and not syn.run_secure_function then
     end
 end
 if not getloadedmodules then
-    game:GetService("Players").LocalPlayer:Kick("your exploit is not supported please join the discord for help https://discord.gg/nTVScPy4rx")
+    game:GetService("Players").LocalPlayer:Kick("your exploit is not supported please join the discord for help https://discord.gg/f7pfcaUC32 (new discord)")
 end
 if shared.yes then
     return
@@ -62,7 +62,7 @@ TextBox1.AutoLocalize = true
 TextBox1.Font = Enum.Font.SourceSans
 TextBox1.LineHeight = 1
 TextBox1.PlaceholderText = ""
-TextBox1.Text = "https://discord.gg/nTVScPy4rx | execute in lobby"
+TextBox1.Text = "https://discord.gg/f7pfcaUC32 (new discord)"
 TextBox1.TextColor3 = Color3.new(0, 0, 0)
 TextBox1.TextScaled = true
 TextBox1.TextSize = 14
